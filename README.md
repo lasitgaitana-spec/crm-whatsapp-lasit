@@ -32,10 +32,50 @@ CRM para atención de clientes por WhatsApp del Colegio Lasit, con recepcionista
 - Clave de API de Gemini válida.
 - Cuenta/instancia de WhatsApp conectada al sistema.
 
-## Instalación y ejecución (desarrollo)
+## Instalación y ejecución
 
-1. Clonar el repositorio:
+El proyecto está dividido en dos partes principales: **Frontend** (React) y **Backend** (Node.js).
 
-   ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPO.git
-   cd TU_REPO
+### 1. Backend (API y WhatsApp)
+
+1.  Entra a la carpeta del servidor:
+    ```bash
+    cd server
+    ```
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3.  Configura las variables de entorno:
+    - Crea un archivo `.env` basado en `.env.example`.
+    - Configura tu conexión a MySQL y las claves de API (Gemini, etc.).
+4.  Inicia el servidor en modo desarrollo:
+    ```bash
+    npm run dev
+    ```
+
+### 2. Frontend (Interfaz Web)
+
+1.  Entra a la carpeta del frontend:
+    ```bash
+    cd frontend
+    ```
+2.  Instala las dependencias:
+    ```bash
+    npm install
+    ```
+3.  Inicia el servidor de desarrollo:
+    ```bash
+    npm run dev
+    ```
+
+## Contribución
+
+¡Queremos tu ayuda para mejorar este CRM! 
+
+Por favor lee el archivo [CONTRIBUTING.md](CONTRIBUTING.md) para detalles sobre nuestro código de conducta y el proceso para enviarnos Pull Requests.
+
+### ¿Por dónde empezar?
+Busca en la pestaña **Issues** de GitHub etiquetas como:
+- `good first issue`: Tareas ideales para quienes contribuyen por primera vez.
+- `help wanted`: Tareas donde necesitamos ayuda extra.

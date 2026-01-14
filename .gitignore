@@ -30,6 +30,12 @@ npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
+# Large Media Files
+*.mp4
+*.mov
+*.avi
+server/storage/
+
 # OS Files
 .DS_Store
 Thumbs.db
