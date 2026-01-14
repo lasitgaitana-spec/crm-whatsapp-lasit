@@ -1,0 +1,4 @@
+{
+  "ignore": ["wa_auth/**", "wa_store.json"],
+  "ext": "js,json"
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" fill="url(#bg)"/>
+  <g opacity="0.25">
+    <path d="M0 60H800M0 120H800M0 180H800M0 240H800M0 300H800M0 360H800M0 420H800" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M100 0V480M200 0V480M300 0V480M400 0V480M500 0V480M600 0V480M700 0V480" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+  <g transform="translate(400,240)">
+    <circle r="64" fill="#ef4444"/>
+    <circle r="18" fill="#fff"/>
+  </g>
+  <text x="50%" y="440" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="22">Vista previa de ubicación</text>
+</svg>
